@@ -29,11 +29,10 @@ const init = () => {
         } else if (choices.questions == "Add Department") {
             addDepartment(); 
           } else {
-              if (res.team == "Quit") {
+              if (choices.team == "Quit") {
                 console.log("\nGoodbye!");
                 process.exit(0);
               }
-              err ? console.log(err) : console.log("");
             }
         });
 };

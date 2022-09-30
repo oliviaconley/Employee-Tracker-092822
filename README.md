@@ -21,6 +21,8 @@ Simply run the application through an integrated terminal using the command “n
 
 ## Links
 
+Screencastify: https://watch.screencastify.com/v/DHjV1yDlZvfv21vBYEX6
+
 GitHub: https://github.com/oliviaconley
 
 LinkedIn: https://www.linkedin.com/in/olivia-conley/
