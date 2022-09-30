@@ -170,7 +170,7 @@ const addRole = () => {
 })
 };
 
-//update employee (changing an existing employee's role) NOT FINISHED
+//update employee 
 const updateEmployee = () => {
     db.promise().query(
         `SELECT employee.first_name, employee.last_name, role.title, department.name AS department, role.salary FROM employee LEFT JOIN role on employee.role_id = role.id LEFT JOIN department on role.department_id = department.id` //get all employees
@@ -186,7 +186,7 @@ const updateEmployee = () => {
             type: "list",
             name: "update",
             message: "Which employee's role do you want to update?",
-            choices: employeeChoices //all employees ???
+            choices: employeeChoices 
         },
     ])
     .then ((data) => {
